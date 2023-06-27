@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .row_speacial {
+        display: flex;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        text-align: center;
+        align-items: center;
+      }
+      .speacial_left_col h2 {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0;
+        max-width: 404px;
+        width: 100%;
+        margin: auto auto 15px;
+        text-align: center;
+        color: #2e2a39;
+        font-weight: 700;
+      }
+      .sp_text p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #2e2a39;
+        /* word-spacing: 4px; */
+        max-width: 572px;
+        letter-spacing: 0.06rem;
+      }
+
+      .speacial_left_col {
+        width: 50%;
+      }
+
+      .table_content {
+        width: 50%;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 0;
+      }
+      .left_top_content {
+        width: 50%;
+      }
+      .left_top_content_2 {
+        width: 25%important;
+      }
+      .content_img {
+        width: 50%;
+      }
+      .content_img img {
+        margin: 0 auto;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      .tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+      }
+      tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+      }
+      .thead_p p {
+        color: #000;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+      }
+      .bottom_table_content {
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 15px;
+      }
+      .tablelooprow {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid rgba(246, 246, 244, 0.44);
+        border-radius: 3px 0 0;
+      }
+      tr .tablelooprow {
+        width: 50%;
+      }
+      .tablelooprow .tabletitle {
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 85px;
+        color: #fff;
+        font-weight: 600;
+        border: 1px solid rgba(246, 246, 244, 0.44);
+        background-color: #ccbdff;
+        width: 50%;
+      }
+
+      .td_img {
+        background: #fff;
+        color: #000;
+        text-align: center;
+        width: 25%;
+      }
+
+      .td_img img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        margin: 0 auto;
+      }
+      .other_content {
+        background-color: #fff;
+      }
+      .bottom_table_content table {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 19px 18px 11px #e3e8ec73;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="bleam_speacil">
+        <div class="container">
+          <div class="row_speacial">
+            <div class="speacial_left_col">
+              <div class="left_box">
+                <h2>What Makes Bleame Special</h2>
+                <div class="sp_text">
+                  <p>
+                    Find out why you should choose Bleame instead of other hair
+                    removal tools.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="table_content">
+              <div class="top_table_content">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th class="left_top_content">&nbsp;</th>
+                      <th class="left_top_content_2">
+                        <div class="content_img">
+                          <img
+                            src="https://cdn.accentuate.io/7105770193071/21124642373807/Logo_JPG_180x-v1642655349500.jpg?180x52"
+                            alt=""
+                          />
+                        </div>
+                      </th>
+                      <th class="text_center thead_p"><p>OTHERS</p></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="bottom_table_content">
+                <table>
+                  <tbody>
+                    <tr class="tablelooprow">
+                      <td class="tabletitle">Painless</td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836322991/check_1check-v1642658295149.png?33x27"
+                          alt=""
+                        />
+                      </td>
+                      <td class="td_img other_content">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836388527/cross-v1642658299531.svg?30x30"
+                          alt=""
+                        />
+                      </td>
+                    </tr>
+                    <tr class="tablelooprow">
+                      <td class="tabletitle">Reusable</td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836322991/check_1check-v1642658295149.png?33x27"
+                          alt=""
+                        />
+                      </td>
+                      <td class="td_img other_content">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836388527/cross-v1642658299531.svg?30x30"
+                          alt=""
+                        />
+                      </td>
+                    </tr>
+                    <tr class="tablelooprow">
+                      <td class="tabletitle">Easy to Use</td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836322991/check_1check-v1642658295149.png?33x27"
+                          alt=""
+                        />
+                      </td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836388527/cross-v1642658299531.svg?30x30"
+                          alt=""
+                        />
+                      </td>
+                    </tr>
+                    <tr class="tablelooprow">
+                      <td class="tabletitle">Eco-Friendly</td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836322991/check_1check-v1642658295149.png?33x27"
+                          alt=""
+                        />
+                      </td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836388527/cross-v1642658299531.svg?30x30"
+                          alt=""
+                        />
+                      </td>
+                    </tr>
+                    <tr class="tablelooprow">
+                      <td class="tabletitle">Costs $$$</td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836388527/cross-v1642658299531.svg?30x30"
+                          alt=""
+                        />
+                      </td>
+                      <td class="td_img">
+                        <img
+                          src="https://cdn.accentuate.io/7105770193071/21145836322991/check_1check-v1642658295149.png?33x27"
+                          alt=""
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
